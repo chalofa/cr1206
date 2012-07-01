@@ -22,13 +22,13 @@ describe Universe do
   describe '#to_s' do
     context 'when default grid' do
       it 'should display the grid cells state' do
-        subject.to_s.should == "ooo\nooo\nooo\n"
+        subject.to_s.should == "111\n111\n111\n"
       end
     end
 
     context 'when the smallest dimension' do
       it 'should show the unique cell' do
-        Universe.new(1).to_s.should == "o\n"
+        Universe.new(1).to_s.should == "1\n"
       end
     end
   end

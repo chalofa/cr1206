@@ -7,7 +7,7 @@ class AliveCell < Cell
   end
 
   def to_s
-    'o'
+    '1'
   end
 
 end

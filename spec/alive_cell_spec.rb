@@ -9,7 +9,7 @@ describe AliveCell do
 
   describe '#to_s' do
     it 'should show it alive' do
-      subject.to_s.should == 'o'
+      subject.to_s.should == '1'
     end
   end
 end
