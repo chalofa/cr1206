@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+@lib_dir = File.expand_path(File.join(File.dirname(__FILE__), 'lib', ''))
+$LOAD_PATH << @lib_dir
+Dir[File.join(@lib_dir, '**', '*.rb')].each { |file| load file }
+
+# Execute forever
+#universe = Universe.new
+#universe.run while true #TODO: implement
